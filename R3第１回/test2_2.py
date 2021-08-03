@@ -7,14 +7,14 @@ GPIO.setup(25,GPIO.OUT)
 GPIO.setup(24,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
 
 try:
-	while True:
-		if GPIO.input(24) == GPIO.HIGH:
-			GPIO.output(25, GPIO.HIGH)
-		else:
-			GPIO.output(25,GPIO.LOW)
-		sleep(0.01)
+    while True:
+        if GPIO.input(24) == GPIO.HIGH:
+            GPIO.output(25, GPIO.HIGH)
+        else:
+            GPIO.output(25,GPIO.LOW)
+        sleep(0.01)
 
 except KeyboardInterrupt:
-	pass
+    pass
 
 GPIO.cleanup()
