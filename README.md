@@ -20,6 +20,6 @@ IoT分科会　集合型研修で使用するコード集
 以下、第2回で使用したサンプルコード
 
 
-- adc.py : AD変換を行うためのプログラムコード
+- [adc.py](https://github.com/Sangise/IoT_Program/blob/main/R3%E7%AC%AC2%E5%9B%9E/adc.py) : AD変換を行うためのプログラムコード
 - get_adc.py : AD変換をGoogleスプレッドシートに送るためのプログラムコード
 - code.gs : グーグルスプレッドシートのGASのコード
