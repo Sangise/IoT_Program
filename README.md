@@ -14,3 +14,12 @@ IoT分科会　集合型研修で使用するコード集
 
 コード内容は[こちら](https://github.com/Sangise/IoT_Program/blob/main/R3%E7%AC%AC%EF%BC%91%E5%9B%9E/test1.py)
 
+## 第2回
+第2回資料はこちら
+
+以下、第2回で使用したサンプルコード
+
+
+- adc.py : AD変換を行うためのプログラムコード
+- get_adc.py : AD変換をGoogleスプレッドシートに送るためのプログラムコード
+- code.gs : グーグルスプレッドシートのGASのコード
