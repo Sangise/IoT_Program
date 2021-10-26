@@ -48,7 +48,7 @@ inputVal0 = readadc(0, SPICLK, SPIMOSI, SPIMISO, SPICS)
 print("ADC = "+ str(inputVal0))
 sleep(1.0)
 
-url = 'https://script.google.com/macros/s/AKfycbyIYF5_fbwmoItNNKk1jupkXQyYBg6ro46M4klIAEURDf3BXnQ/exec'
+url = 'ここにURLを貼り付ける'
 data = '?data1=1&data2=' +  str(inputVal0)
 
 requests.get(url + data)
